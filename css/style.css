@@ -1,0 +1,90 @@
+.content{
+    width: 500px;
+    height: 500px;
+    background-color: darkorchid;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.box-1{
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   background-image: linear-gradient(  red,rgb(255, 140, 0) );
+   top: 100px;
+   left: 100px;
+   border-radius: 50%;
+}
+.box-2{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient( to bottom, white 50%, #cbc2c2 50%);
+    top: 144px;
+    left: 140px;
+    z-index: 119;
+}
+.box-3{
+    width: 160px;
+    height: 350px;
+    position: absolute;
+    z-index: 120;
+    background-color: darkorchid;
+    top: 90px;
+    left: 90px;
+}
+.box-5{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #5b2222;
+    top: 144px;
+    left: 140px;
+    z-index: 15;
+}
+.box-6{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: goldenrod;
+    border-radius: 50%;
+    z-index: 25;
+    top: 195px;
+    left: 190px;
+}
+.box-7{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    /* background-image: linear-gradient(to top, white 50%, #f2f2f2 70%); */
+    border-start-end-radius: 100%;
+    background-color: rgb(255, 234, 0);
+    transform: rotateY(180deg);
+    left: 141px;
+    top: 143px;
+    z-index: 122;
+}
+.box-8{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 123;
+    top: 193px;
+    left: 250px;
+}
+.box-9{
+    width: 85px;
+    height: 85px;
+    background-color: rgb(255, 179, 0);
+    position: absolute;
+     border-start-end-radius: 100%; 
+    /* border-radius: 50%; */
+    z-index: 123;
+    transform: rotate(180deg);
+    top: 253px;
+    left: 165px;
+}
